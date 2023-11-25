@@ -1,0 +1,28 @@
+/* Typography */
+body {
+  margin: 0;
+  font-family: 'Sora', sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 20px;
+  color: #52525A;
+}
+
+.list {
+  font-size: 14px;
+  color: #52525A;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: lighter;
+  color: #52525A;
+}
+
+
