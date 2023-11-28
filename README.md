@@ -32,7 +32,7 @@
 
 ## Overview
 
-![testmonial](https://github.com/erict16/testimonial-page/assets/83531295/508bf46e-66d9-4d67-85cb-f5a744e19f8a)
+![testmonial](https://github.com/erict16/testimonial-page/assets/83531295/5cc3e7b7-6c5a-474a-bad3-d76249f9d312)
 
 
 <br/>
