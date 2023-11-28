@@ -34,6 +34,10 @@ h3 {
     color: #52525A;
 }
 
+ul {
+  list-style-image: url('images/Done_ring_round_fill.svg');
+}
+
 main {
     font-family: 'Sora', sans-serif;
     display: flex;
@@ -42,6 +46,7 @@ main {
     height: 100vh;
     background-color: #FAFAF9;
 }
+
 
 
 
@@ -62,7 +67,11 @@ main {
     color: #52525A;
     font-weight: lighter;
     list-style: none;
+    margin-top: 20px;
+    align-items: center;
 }
+
+
 
 .container {
 
@@ -75,23 +84,23 @@ main {
 .section {
     padding: 50px;
     width: 50%;
-    /*border: solid;*/
     margin: 0 10px;
-    border: dashed;
 }
 
 
 .logo {
     width: 100px;
+    margin-right: 10px;
 }
 
 
 
 .google {
+    margin-left: 100px;
     background-color: white;
     border-radius: 20px;
     padding: 20px;
-
+    max-width: 400px;
 }
 
 .meta {
@@ -99,6 +108,21 @@ main {
     border-radius: 20px;
     padding: 20px;
     margin-top: 40px;
+    max-width: 400px;
+}
+
+.top-box {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    margin-top: 15px;
+}
+
+.check {
+    margin-right: 5px;
 }
 
 
