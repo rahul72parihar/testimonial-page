@@ -84,4 +84,4 @@ $ git clone https://github.com/erict16/business-blog-card
 
 - Website [helloerictan.com](https://helloerictan.com)
 - GitHub [@erict16](https://github.com/erict16)
-- Twitter [@helloerictan](https://{twitter.com/helloerictan})
+- Twitter [@helloerictan](https://twitter.com/helloerictan})
