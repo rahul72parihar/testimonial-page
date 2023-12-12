@@ -1,12 +1,132 @@
-/* Base & Reset */
+@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
+:root {
+  --yellow: #f5c044;
+  --gray: #52525a;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+li {
+  list-style-type: none;
+}
+
+body {
+  padding: 3em;
+  font-family: "Sora", sans-serif;
+  background-color: #fafaf9;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.golden-star {
+  width: 40px;
+  height: 40px;
+  padding: 1em;
+  background-color: var(--yellow);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+.reviewers {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  h2 {
+    font-size: 2em;
+  }
+  p {
+    color: grey;
+    font-size: 1.2em;
+  }
+  ul {
+    color: grey;
+    li {
+      display: flex;
+      align-items: center;
+      margin-top: 1em;
+      font-size: 0.8em;
+      gap: 0.5em;
+    }
+  }
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  .card {
+    width: 80%;
+    background-color: white;
+    padding: 1.5em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    .stars {
+      .company-image {
+        width: 100%;
+        margin-right: 10px;
+      }
+      .small-star {
+        width: 10%;
+      }
+    }
+  }
+  .card:nth-of-type(1) {
+    margin-left: auto;
+  }
+}
+@media (min-width: 700px) {
+  body {
+    display: flex;
+    justify-content: left;
+    min-height: 100vh;
+    align-items: center;
+  }
+  main {
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+  }
+  .reviewers {
+    width: 50vw;
+    h2 {
+      font-size: 2em;
+    }
+    p {
+      line-height: 2em;
+    }
+    font-size: 1.2em;
+  }
+  .cards {
+    width: 30vw;
+    .card {
+      width: 80%;
+      .stars {
+        display: flex;
+        .company-image {
+          width: 40%;
+        }
+      }
+    }
+  }
+}
+/* 
 
 :root {
     --yellow: #F5C044;
     --green: #4CA154;
     --dark: #18181B;
-    --gray: #52525A;
+    
     --sora-font: 'Sora', sans-serif;
 }
 
@@ -16,7 +136,6 @@
     box-sizing: border-box;
     line-height: 1.8;
 }
-
 
 h1 {
     font-size: 36px;
@@ -47,10 +166,8 @@ main {
     background-color: #FAFAF9;
 }
 
+Circle
 
-
-
-/* Class */
 .circle {
     width: 45px;
     height: 45px;
@@ -87,13 +204,10 @@ main {
     margin: 0 10px;
 }
 
-
 .logo {
     width: 100px;
     margin-right: 10px;
 }
-
-
 
 .google {
     margin-left: 100px;
@@ -123,8 +237,4 @@ li {
 
 .check {
     margin-right: 5px;
-}
-
-
-
-
+} */
